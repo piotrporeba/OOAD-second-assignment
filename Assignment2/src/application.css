@@ -1,0 +1,94 @@
+
+.root{
+
+		-fx-background-size: 100% 100%;
+  	 	-fx-background-repeat: stretch;
+		-fx-background-position: center center;
+
+
+
+}
+
+
+
+#BandButton{
+
+	    -fx-font-size:160%;
+		-fx-font-style: oblique ;
+		-fx-background-color: linear-gradient(white, black);
+		-fx-background-radius: 10px;
+		-fx-border-color: black;
+		-fx-border-radius: 10px;
+		-fx-opacity: 0.8;
+
+}
+
+#BandButton:hover{
+	-fx-background-color: white;
+
+}
+#Active{
+
+	    -fx-font-size:160%;
+		-fx-font-style: oblique ;
+		-fx-background-color: linear-gradient(black, black);
+		-fx-background-radius: 10px;
+		-fx-border-color: black;
+		-fx-border-radius: 10px;
+		-fx-opacity: 0.8;
+
+}
+
+#Active:hover{
+	-fx-background-color: white;
+	-fx-border-color: black;
+
+}
+
+
+.root  .button{
+
+		-fx-font-size:130%;
+		-fx-font-style: oblique ;
+		-fx-background-color: linear-gradient(white, black);
+		-fx-background-radius: 10px;
+		-fx-border-color: black;
+		-fx-border-radius: 10px;
+		-fx-opacity: 0.8;
+
+}
+
+
+.root  .button:hover {
+    	-fx-background-color: white;
+}
+
+#white{
+
+	-fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-style: italic ;
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+
+
+}
+
+#black{
+
+	-fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-style: italic ;
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+
+
+}
+
+.root  .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-style: italic ;
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
